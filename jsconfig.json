@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "ES2015",
+        "strict": true,
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": "/",
+        "paths": {
+            "@/*": ["./resources/js/*"],
+            "@components/*": ["./resources/js/Components/*"],
+            "@layouts/*": ["./resources/js/Layouts/*"],
+            "@hooks/*": ["resources/js/Hooks/*"],
+            "@images/*": ["resources/assets/images/*"],
+            "@css/*": ["resources/assets/scss/*"],
+            "ziggy-js": ["./vendor/tightenco/ziggy"]
+        },
+        "include": ["resources/js/**/*.js", "resources/js/**/*.jsx", "resources/js/**/*.ts", "resources/js/**/*.tsx", "resources/js/**/*.d.ts"]
+    }
+}
